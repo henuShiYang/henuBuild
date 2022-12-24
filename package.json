@@ -40,10 +40,10 @@
   "lint-staged": {
     "src/**/*.{js,ts,tsx}": [
       "prettier --write",
-      "stylelint --fix"
+      "eslint --cache --fix"
     ],
     "src/**/*.{css}": [
-      "eslint --cache --fix"
+      "stylelint --fix"
     ]
   }
 }
